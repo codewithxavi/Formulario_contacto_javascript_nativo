@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.noError {
+    visibility: hidden;
+}
+
+.error {
+    visibility: true;
+    color: #ff0000;
+    font-weight: 700;
+}
+
+.borderror {
+    border: 2px solid #ff0000;
+}
+
+.noborderror {
+    border: 1px solid #000;
+}
+
+ul {
+    list-style: none;
+}
+
+fieldset {
+    margin-top: 20px;
+}
